@@ -1,0 +1,527 @@
+/************ Donation & Booking *********************/
+
+
+.boxDono {
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.donoUI {
+    display: block;
+    width: 40%;
+    align-content: center;
+    margin-right: 30%;
+    margin-left: 30%;
+    padding-bottom: 1%;
+}
+.donoUI fieldset legend {
+    font-size: 20px;
+}
+
+.donoUI fieldset{
+    width: 80%;
+    background-color: #a4ee7c;
+    border:1.5px solid #000000;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+#donateSubmit {
+    width: 80px;
+    height: 30px;
+    color: #000000;
+    background-color: #5b9c38;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+
+#donateSubmit:hover {
+    color: #ffffff;
+    background-color: #1ea500;
+  }
+
+.donoUI legend {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+#mainPara h1 {
+    color: black;
+    text-shadow: 1px 0 black, 0 1px black, 1px 0 black, 0 1px black;
+    text-align: center;
+    font-size: 40px;
+}
+
+.itemImg {
+    border-radius: 20px;
+    margin-top: 30px;
+    width: 90%;
+    height: auto;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+
+.items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr ;
+    padding-bottom: 20px;
+}
+
+.item {
+    display: block;
+    margin-left: 50px;
+    background-color: #a4ee7c;
+    width: 80%;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+.item h3 {
+    padding-left: 10px;
+}
+
+.button {
+    display: block;
+    margin: 20px;
+    color: #000000;
+    background-color: #6b5bfb;
+    width: 90%;
+    height: 5%;
+    border-radius: 20px;
+}
+
+.button:hover {
+    color: #f7f1f1;
+    border-radius: 20px;
+    background-color: #1ea500;
+}
+
+#remove {
+    width: 150px;
+    height: 30px;
+}
+
+.bookingButton {
+    display: block;
+    margin: 20px;
+    border-radius: 20px;
+    color: #000000;
+    background-color: #f4f9f1;
+    width: 200px;
+    height: 30px;
+}
+.bookingButton:hover {
+    color: #ffffff;
+    border-radius: 20px;
+    background-color: #1ea500;
+}
+
+.bookingGuests {
+    width: 450px;
+    align-content: center;
+    border-radius: 15px;
+    padding-left: 3%;
+    padding-right: 4%;
+    margin-left: 4%;
+    border:1.5px solid #000000;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    display: grid;
+    padding-top: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+    background-color: #f7f7f7;
+}
+.bookingDates {
+    padding-top: 5px;
+    width: 315px;
+    height: 30px;
+    margin-left: 31px;
+    padding-left: 2%;
+    padding-right: 1%;
+    align-content: center;
+    border-radius: 15px;
+    border:1.5px solid #000000;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+
+
+form h6 {
+    color: #065555;
+}
+form h5{
+    color: #e80c0c;
+    font-size: smaller;
+    font-weight: 500;
+}
+.bookingGuests section label {
+    padding-left: 3%;
+}
+
+.bookingGuests section input {
+    margin-right: 5px;
+}
+.bookingTickets {
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 30px;
+    background-color: #a4ee7c;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    
+}
+.choosingTickets{
+    display:inline-flex;
+    width: 95%;
+    height: auto;
+    margin-left: 2%;
+    margin-bottom: 20px;
+    padding-right: 1%;
+    align-content: center;
+    border-radius: 15px;
+    border:1.5px solid #000000;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+.choosingTickets p{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    border-left: 2px solid #000000;
+}
+
+
+.buttonChange {
+    margin: 20px;
+    color: #000000;
+    background-color: #5b9c38;
+    width: 40px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.buttonChange:hover {
+    color: #ffffff;
+    border-radius: 20px;
+    background-color: #1ea500;
+}
+.wrapper{
+    margin-top: 15px;
+    height:40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+}
+.wrapper span{
+    width: 100%;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#addToOrder, #placeOrder , #addToFav , #orderFav{
+    width: 150px;
+    height: 30px;
+}
+
+#overallCostTickets{
+    padding-top: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 2px;
+    border: 1px solid #000000;
+    height:250px;
+    width: 300px;
+    background-color: #a4ee7c;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+}
+#totalCostTickets{
+    padding-top: 6px;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 2px;
+    border: 1px solid #000000;
+    height:300px;
+    width: 310px;
+    background-color: #a4ee7c;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+}
+#total{
+    color: #2d5007;
+}
+#overall{
+    color: #2d5007;
+}
+#duration{
+    width: 100px;
+    height : 30px;
+    background-color: #ffffff;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+/**************** Ticket price output table************************************ */
+
+.table {
+    border-radius: 20px;
+    width: 95%;
+    margin-left: 10px; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #e11010;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    
+  }
+  
+  .table td, .table th {
+    border-radius: 10px;
+    border-width: 2px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    border-color: #0c4615;
+    border-style: solid;
+    text-align: center;
+
+  }
+  
+  .table tr td{
+      text-align: center;
+  }
+  .table th {
+      border-width: 2px;
+      border-color: #0c4615;
+      border-style: solid;
+      padding: 10px 9px;
+      
+      text-align: center;
+    }
+  
+  .table thead {
+    background-color: #a4ee7c;
+  }
+  
+  .table tfoot {
+      background-color: #a4ee7c;
+    }
+  
+  .table tfoot tr td{
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  
+  .table thead tr th{
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    .exp-wrapper {
+        position: relative;
+        border: 1px solid #aaa;
+        display: flex;
+        width: 200px;
+        justify-content: space-around;
+        height: 20px;
+        line-height: 20px;
+        font-size: 24px;
+      }
+      
+      .exp-wrapper:after {
+        content: '/';
+        position: absolute;
+        left: 50%;
+        margin-left: -4px;
+        color: #aaa;
+      }
+      
+      input.exp {
+        float: left;
+        font-family: monospace;
+        border: 0;
+        width: 98px;
+        padding-left: 10px;
+        outline: none;
+        appearance: none;
+        font-size: 13px;
+      }
+
+      .bookingDelButton {
+        display: block;
+        margin: 1.5px;
+        border-radius: 10px;
+        color: #000000;
+        background-color: #5b9c38;
+        width: 60px;
+        height: 30px;
+    }
+    .bookingDelButton:hover {
+        color: #ffffff;
+        border-radius: 10px;
+        background-color: #1ea500;
+    }
+
+    .addToFavButton {
+        display: block;
+        margin: 1px;
+        border-radius: 10px;
+        color: #000000;
+        background-color: #5b9c38;
+        width: 65px;
+        height: 40px;
+    }
+    .addToFavButton:hover {
+        color: #ffffff;
+        border-radius: 10px;
+        background-color: #1bec49;
+    }
+
+
+    #halfBody {
+        background: linear-gradient(to right, rgb(255, 255, 255) 50%, #a4e083de 50%);
+    }
+
+    #left {
+        width: 50%;
+        float:left;
+    }
+    #right {
+        display: block;
+        width: 50%; 
+        float:right;
+    }
+
+    .bookingTopics{
+        font-size: 22px;
+        font-weight:500;
+        margin-left: 50px;
+    }
+
+    .selectDuration{
+        padding-bottom: 20px;
+        width: 315px;
+        height: 30px;
+        margin-left: 31px;
+        padding-left: 2%;
+        padding-right: 1%;
+       
+        border-radius: 15px;
+        border:1.5px solid #000000;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+/************************** *Popup message* ************************************/
+
+.popup{
+    width: 400px;
+    background: rgb(197, 204, 187);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0px 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup p{
+    text-align: center;
+}
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+}  
+.popup h2{
+    margin: 30px 0px 10px;
+    font-size: 38px;
+    font-weight: 500;
+}
+.popup button{
+    width: 80%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #6fd649;
+    color:#fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.popupDonate{
+    width: 400px;
+    background: rgb(125, 136, 110);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0px 30px 30px;
+    color: rgb(117, 64, 64);
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popupDonate p{
+    text-align: center;
+}
+.popupDonate img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+}  
+.popupDonate h2{
+    margin: 30px 0px 10px;
+    font-size: 38px;
+    font-weight: 500;
+}
+#closePopup{
+    width: 80%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #6fd649;
+    color:rgb(0, 0, 0);
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
